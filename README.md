@@ -3,9 +3,9 @@
 The goal of this project is to develop a predictive model for game outcomes in the NBA and leverage it to identify opportunities for value betting against Vegas sports spreads. The project focuses on utilizing historical data (found through web scraping), statistical analysis, and machine learning algorithms to enhance the accuracy of predictions and potentially exploit discrepancies in sportsbook odds.
 
 
-We'll start by web scraping NBA box scores.  We'll read in and clean the html using BeautifulSoup.  Then we'll parse the box scores into pandas DataFrames that we can use for machine learning.  Then we'll do feature selection to identify good predictors, and train a machine learning model to make predictions.  We'll end by computing rolling predictors and improving the model. Once this is finished the predictions will be compared to real spreads of future NBA games to find 'value' bets.
+We'll start by using NBA box score data sourced from the NBA API. Then we'll parse the box scores into pandas DataFrames that we can use for machine learning.  Then we'll do feature selection to identify good predictors, and train a machine learning model to make predictions.  We'll end by computing rolling predictors and improving the model. Once this is finished the predictions will be read into a streamlit application where a user can select a date from a calendar object and they will be shown the predictions for all NBA games on that day..
 
-This is a capstone project, and we'll be using web scraping, data cleaning, and machine learning in order to complete this data pipeline.
+This is a capstone project, and we'll be using APIs, data cleaning, and machine learning in order to complete this data pipeline.
 
 ## Project Timeline
 
