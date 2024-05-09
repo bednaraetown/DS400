@@ -1,1 +1,2 @@
-The WebScraping1 File contains the Code used to get the data via web scraping from https://www.basketball-reference.com/
+This file contains all of the dated versions of the modeling notebook that were completed.
+Each file has the date in the file name.
